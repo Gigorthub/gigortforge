@@ -9,6 +9,7 @@ import registerVariables from "./variables";
 import registerLists from "./lists";
 import registerBlocks from "./blocks";
 import registerTargets from "./targets";
+import registerLambdas from "./lambdas";
 
 import registerRuntime from "./runtime";
 import registerScript from "./script";
@@ -25,6 +26,7 @@ export default () => {
     registerLists();
     registerBlocks();
     registerTargets();
+    registerLambdas();
 
     registerRuntime();
     registerScript();
